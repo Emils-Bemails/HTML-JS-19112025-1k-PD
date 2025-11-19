@@ -15,13 +15,13 @@ function onButtonClicked() {
     let BMItext = "";
 
     if (BMI < 18.5) {
-        BMItext = "Nepietiekama ķermena masa"
+        BMItext = "(Nepietiekama ķermena masa)"
     } else if (BMI <= 24.99 ) {
-        BMItext = "Normāla ķermena masa"
+        BMItext = "(Normāla ķermena masa)"
     } else if (BMI<= 29.99) {
-        BMItext = "Lieka ķermena masa"
+        BMItext = "(Lieka ķermena masa)"
     } else if ( BMI > 30 ) { 
-        BMItext = "Aptaukošanās"
+        BMItext = "(Aptaukošanās)"
     }
     
     outputContainer.innerHTML = `Jūsu ĶMI ir ${BMI} ${BMItext}`
@@ -29,7 +29,7 @@ function onButtonClicked() {
     let outputNumber = BMI;
     let outputBMIText = BMItext;
     let historyItem = document.createElement('li');
-    historyItem.innerHTML = `Jūsu ĶMI ir ${outputNumber} ${outputBMIText} Masa: ${kgValue} kg Augums: ${cmValue} cm`;
+    historyItem.innerHTML = `Jūsu ĶMI ir ${outputNumber} ${outputBMIText}. Masa: ${kgValue} kg, Augums: ${cmValue} cm`;
     historyItemList.append(historyItem);
 
 
