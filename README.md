@@ -25,3 +25,17 @@ Kategorijas: `Nepietiekama ķermeņa masa`, `Normāla ķermeņa masa`, `Lieka ķ
 Kategoriju robežvērtības skatīt [e-veselības ĶMI kalkulātors vietnē](https://eveseliba.gov.lv/sakums/informativie-raksti/veselibas-veicinasana/%C4%B7erme%C5%86a-masas-indekss).<br>
 Skatiet pievienotos attēlus paraugam.<br>
 Vēstures pievienošana ir papilduzdevums 9 un 10 ballēm.<br>
+
+Sintakses atslēgvārdi:
+
+- let
+- const
+- document.getElementById
+- value
+- addEventListener
+- click
+- function
+- innerHTML
+- li = document.createElement('li')
+- li.innerHTML = `some text`;
+- list.appendChild(li)
